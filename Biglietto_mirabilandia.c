@@ -3,22 +3,22 @@
 #include<MATH.H>
 
 /* "Biglietto_Mirabilandia"
- Autore:Davide Vallati;Classe:3°INA;Data:23/11/2016;Versione:1.0 */
+ Autore:Davide Vallati;Classe:3Â°INA;Data:23/11/2016;Versione:2.0 */
  
  main()
  {
  	char Risposta;                                      //variabile che contiene la risposta
  	char S;                                             //variabile che contiene il si
  	char N;                                             //variabile che contiene il no
- 	int Eta;                                            //variabile che contiene l'età
+ 	int Eta;                                            //variabile che contiene l'etÃ 
  	float Altezza;                                      //variabile che contiene l'altezza
  	float Prezzo;                                       //variabile che contiene il prezzo
- 	printf("La persona è disabile? (S=si,N=no)"); 
- 	scanf("%c",&Risposta);                              
+ 	printf("La persona Ã¨ disabile? (S=si,N=no)"); 
+ 	scanf("%c",&Risposta);                          
  	if (Risposta==S){
  		Prezzo=0;
 	 }
-	 else printf("Inserire l'età");                       
+	 else printf("Inserire Eta");                       
 	      scanf("%d",&Eta);                             
 	      if (Eta>=60){
 	      	Prezzo=25,00;
