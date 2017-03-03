@@ -11,30 +11,35 @@ int main(){
 	int num;//variabile che contiene num
 	int centro;//variabile che contiene il centro
 	int trovato;//variabile che contiene trovato
+	int cont;
 	
 	printf("\"Inserire il numero da cercare nell'array\": ");//chiedo a video di inserire il numero da cercare nell'array
 	scanf("%d",&num);
+	cont=0;
 	min=0;//valore iniziale della variabile min
 	max=19;//valore iniziale della variabile max
 	trovato=0;//valore iniziale della variabile trovato
 	while((trovato==0)&&(min<=max)){
 		centro=(max+min)/2;
 	    if(num==numeri[centro]){//se num==numeri[centro] allora...
-	    	trovato=1;//il valore della variabile trovato è 1
+	    	trovato=1;//il valore della variabile trovato Ã¨ 1
+	    	cont++;
     	}
     	else{//altrimenti
 		    if(num>numeri[centro]){//se num>numeri[centro] allore...
 		     	min=centro+1;
 			    centro=(max+min)/2;
+			    cont++;
 	    	}
 		    else{//altrimenti
 		    	max=centro-1;
 		    	centro=(max+min)/2;
+		    	cont++;
 	    	}
 	    }
 	}
 	if(trovato==1){//se trovato==1
-	    printf("\"hai trovato il numero\": [%d]",numeri[centro]);
+	    printf("\"hai trovato il numero\": [%d];si trova alla posizione: [%d];e' stato trovato in %d passo/i",numeri[centro],centro,cont);
     }
     else{//altrimenti
     	printf("\"il numero che cerchi non e' presente\"");
