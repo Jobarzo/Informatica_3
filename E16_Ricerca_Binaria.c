@@ -15,7 +15,7 @@ int main(){
 	
 	printf("\"Inserire il numero da cercare nell'array\": ");//chiedo a video di inserire il numero da cercare nell'array
 	scanf("%d",&num);
-	cont=0;
+	cont=0;//valore iniziale della variabile cont
 	min=0;//valore iniziale della variabile min
 	max=19;//valore iniziale della variabile max
 	trovato=0;//valore iniziale della variabile trovato
