@@ -1,7 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-/*scrivere un programma che inserito un numero in input dall'utente permetta di cercarlo attraverso la ricerca binaria all'interno di un'array di numeri*/
+/*scrivere un programma che inserito un numero in input dall'utente permetta di 
+  cercarlo attraverso la ricerca binaria all'interno di un'array di numeri
+  Autore: Davide Vallati - Classe: 3° INA - Data: 03/01/2017 - Versione: 1.0 */
 
 int main(){
 	
