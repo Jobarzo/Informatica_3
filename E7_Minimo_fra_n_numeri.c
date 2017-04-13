@@ -1,11 +1,14 @@
 #include<stdio.h>
 
+/* Dati n numeri interi,calcolare il numero minimo
+   Autore: Davide Vallati - Classe: 3° INA - Data: 03/01/2017 - Versione: 1.0 */
+
 int main()
 {
-	int n;                           //variabile che contiene il valore di n
-	int I;                           //variabile che contiene il valore di I
-	int min;                         //variabile che contiene il valore di min
-	int num;                         //variabile che contiene il valore di num
+	int n; //variabile che contiene il valore di n
+	int I; //variabile che contiene il valore di I
+	int min; //variabile che contiene il valore di min
+	int num; //variabile che contiene il valore di num
 	
 	printf("inserisci il numero dei valori che vuoi inserire? ");  //chiedi a video di inserire il numero dei valori dei quali vuole sapere il minimo
 	scanf("%d",&n);  //indirizzo iniziale di n
