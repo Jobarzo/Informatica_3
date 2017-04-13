@@ -1,6 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<MATH.H>
+
+/* Massimo tra 3 numeri 
+   Autore: Davide Vallati - Classe: 3° INA - Data: 14/11/2016 - Versione: 1.0 */
+
 main()
 {
 	int A;//variabile che contiene il valore di A
