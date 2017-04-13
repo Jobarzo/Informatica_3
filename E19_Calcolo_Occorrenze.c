@@ -2,6 +2,10 @@
 #include<stdlib.h>
 #include<math.h>
 
+
+/* Calcolo delle occorrenze in una stringa di caratteri
+   Autore: Davide Vallati - Classe: 3° INA - Data: 03/01/2017 - Versione: 1.0 */
+
 int main(){
   char nome[100];	
   int scelta;
