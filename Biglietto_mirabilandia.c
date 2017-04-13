@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-/* "Biglietto_Mirabilandia"
- Autore:Davide Vallati;Classe:3°INA;Data:23/11/2016;Versione:3.0 */
+/* Biglietto Mirabilandia
+   Autore: Davide Vallati - Classe: 3° INA - Data: 21/11/2016 - Versione: 3.0 */
  
  main()
  {
