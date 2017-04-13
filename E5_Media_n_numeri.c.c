@@ -1,4 +1,8 @@
 #include<stdio.h>
+
+/* Calcolo della media di n numeri
+   Autore: Davide Vallati - Classe: 3° INA - Data: 03/01/2017 - Versione: 1.0 */
+
 int main()
 {
 	
