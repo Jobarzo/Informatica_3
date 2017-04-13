@@ -1,10 +1,13 @@
 #include<stdio.h>
 
+/* Dato un numero calcolare il suo fattoriale 
+   Autore: Davide Vallati - Classe: 3° INA - Data: 03/01/2017 - Versione: 1.0 */
+
 int main()
 {
-	int fat;                         //variabile che contiene il valore di fat
-	int num;                         //variabile che contiene il valore di num
-	int I;                           //variabile che contiene il valore di I
+	int fat;//variabile che contiene il valore di fat
+	int num;//variabile che contiene il valore di num
+	int I;//variabile che contiene il valore di I
 	
 	fat=1;  //valore iniziale di fat  
 	printf("inserisci un numero ");  //chiedi a video di inserire un numero
