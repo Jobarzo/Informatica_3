@@ -2,8 +2,8 @@
 #include<stdlib.h>
 #include<math.h>
 
-/* Caricamento di un'array e stampa inversa
-   Autore: Davide Vallati - Classe: 3° INA - Data: 03/01/2017 - Versione: 1.0 */
+/* Filtrare gli elementi di un'array
+   Autore: Davide Vallati - Classe: 3Â° INA - Data: 03/01/2017 - Versione: 1.0 */
    
 int main()
 {
