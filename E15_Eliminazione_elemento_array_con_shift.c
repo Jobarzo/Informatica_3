@@ -2,6 +2,9 @@
 #include<stdlib.h>
 #include<math.h>
 
+/* Eliminazione elemento array con shift
+   Autore: Davide Vallati - Classe: 3° INA - Data: 03/01/2017 - Versione: 1.0 */
+
 int main(){
 	int V[10]={4,5,8,15,20,32,43,64,86,95};
 	int I;
